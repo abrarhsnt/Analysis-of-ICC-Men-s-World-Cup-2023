@@ -1,27 +1,9 @@
-# Analysis-of-ICC-Men-s-World-Cup-2023
-We have performed various data visualization operation on our dataset using different python libraries including
-Numpy
-Pandas
-Matplotlib
-Pyplot
+This project involves analyzing the ICC World Cup 2023 data to evaluate player and team performance using various metrics. The focus was on identifying the best bowlers, batsmen, and all-rounders, both overall and by country. We introduced custom metrics, such as the combined bowling and batting score, to rank players based on their overall contributions.
 
-We used a dataset from Kaggle which basically contains multiple csv files representing various batting, bowling and teams related data of the ICC Men’s World Cup 2023. 
+Key analyses included:
 
-Dataset Link: https://www.kaggle.com/datasets/promac1234/icc-worldcup-2023
-
-We have tried to visualize following informations from our dataset- 
-Players with highest runs and their countries
-Number of sixes and fours by countries
-Top 10 run getters
-Most wicket takers
-Most economical Bowlers
-Bowlers with best average
-Bowlers with lowest strike rates
-Total wickets taken by countries
-Average economy rate by countries
-Most catches
-Highest team totals
-Total runs by countries
-Average run rate by countries
-Average scores in each venue
-Highest partnerships
+Determining the best bowler, best batsman, and best all-rounder.
+Ranking players by country for each of these metrics.
+Analyzing country-wise contributions in terms of total runs and wickets.
+Comparing the rankings of players and teams with the final points table to assess the relevance of our metrics.
+The analysis confirmed that the metrics we created—particularly the all-rounder score and country-wise performance—correlate well with team success, supporting their relevance in evaluating player and team performance in the tournament.
